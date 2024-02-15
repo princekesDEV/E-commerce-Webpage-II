@@ -1,0 +1,28 @@
+h1 {
+  color: #faf8ed;
+  text-align: center;
+  font-size: 50px;
+}
+
+#search_items {
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  width: 33%;
+  height: 30px;
+}
+nav {
+  width: 98%;
+  color: #faf8ed;
+  margin: 0;
+  padding: 1%;
+  background-color: #495e57;
+}
+span {
+  font-size: 20px;
+  font-weight: 900;
+  margin: 0px 50px;
+}
+span:hover {
+  cursor: pointer;
+}

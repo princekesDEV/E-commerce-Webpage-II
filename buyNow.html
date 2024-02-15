@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buy Now</title>
+    <link rel="stylesheet" href="Style\header.css" />
+    <link rel="stylesheet" href="Style\main.css" />
+    <link rel="stylesheet" href="Style\table.css" />
+  </head>
+  <body>
+    <h1>Buy Now</h1>
+    <nav>
+      <span onclick="window.location.href = 'index.html'">Home</span>
+      <span onclick="window.location.href = 'wishlist.html'">Wishlist</span>
+      <span onclick="window.location.href = 'cart.html'">Cart</span>
+    </nav>
+    <hr />
+    <br />
+    <br />
+
+    <table>
+      <thead>
+        <tr>
+          <th>S.No</th>
+          <th>Product Id</th>
+          <th>Product Name</th>
+          <th>Price</th>
+          <th>Qty.</th>
+          <th>Final Price</th>
+          <th>Remove Item</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Append your data here -->
+      </tbody>
+    </table>
+    <br /><br />
+    <footer>
+      <div style="text-align: center">
+        <button onclick="buyProducts()" style="padding: 10px 45%">Buy</button>
+      </div>
+    </footer>
+
+   
+  </body>
+</html>
+<script src="Script\buyNow.js"></script>
